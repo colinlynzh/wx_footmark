@@ -1,0 +1,313 @@
+body {
+    background-color: #ffffff;
+}
+.weui-grid {
+    padding: 0px;
+}
+.weui-grid:before {
+    border: 0;
+}
+.weui-grid:after {
+    border-bottom:none;
+}
+.weui-media-box_appmsg .weui-media-box__hd {
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+}
+.weui-media-box_appmsg .weui-media-box__hd img {
+    vertical-align:middle; 
+}
+.weui-tabbar {  
+    position: fixed;
+}
+
+
+.contact  {
+    position: relative;
+    max-width: 420px;
+    padding: 40px 20px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.contact main {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.contact main section {
+    border-radius: 5px;
+    float: left;
+    width: 100%;
+    background-color: #eb524a;
+}
+
+.contact main section .content {
+    float: left;
+    width: 100%;
+    padding: 20px 30px 50px 30px;
+    position: relative;
+    text-align: center;
+}
+
+.contact main section .content img {
+    width: 30%;
+    height: 100%;
+    /* margin-right: 10%; */
+    display: block;
+    float: left;
+    border-radius: 50%;
+}
+
+.contact main section .content aside {
+    width: 60%;
+    float: left;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.contact main section .content aside h1 {
+    font-weight: 100;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.contact main section .content aside p {
+    font-size: 14px;
+    letter-spacing: .5px;
+    line-height: 160%;
+}
+
+.contact main button {
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    background-color: #ffbe44;
+    color: #c63535;
+    border: 0;
+    width: 120px;
+    height: 48px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 16px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    margin-bottom: -24px;
+    margin-right: -100px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    transition-delay: .1s;
+    outline: none;
+    overflow: hidden;
+    z-index: 10;
+    font-family: inherit;
+}
+
+.contact main #bx {
+    /* right: 40%; */
+}
+
+.contact main #wx {
+    left: 5%;
+}
+
+
+.contact main button svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.contact main .title {
+    float: left;
+    width: 100%;
+    background-color: #c63535;
+    max-height: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
+    -webkit-transition: all 0.55s;
+    -moz-transition: all 0.55s;
+    -o-transition: all 0.55s;
+    transition: all 0.55s;
+}
+
+.contact main .title p {
+    padding: 15px 30px;
+    color: #ffffff;
+    font-size: 16px;
+    display: inline-block;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+}
+
+.contact main button.active {
+    margin-right: 0;
+    right: 20px;
+    width: 65px;
+    height: 65px;
+    margin-bottom: -32.5px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    border-radius: 65px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.contact main .title.active {
+    max-height: 100px;
+    transition: all 1.3s;
+}
+
+.contact nav.active {
+    max-height: 600px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.contact nav {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    max-height: 0px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.contact nav a {
+    float: left;
+    width: 100%;
+    margin-top: 18px;
+    background-color: #ffffff;
+    padding: 18px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    opacity: 0;
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+    transform: translateY(-10px);
+    position: relative;
+}
+
+.contact nav a .icon {
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.contact nav a .icon svg {
+    width: 100%;
+    height: 100%;
+    padding: 14px;
+}
+
+.copyright {
+    width: 100%;
+    margin: 20px 0px;
+    color: #ccc;
+    text-align: center;
+}
+
+.vip {
+    text-align: center;
+    width: 100%;
+}
+.vip ul {
+    list-style: none;
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+}
+.vip ul img {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    display: block;
+    max-width:100%;
+}
+
+#vip_contact span {
+    display: inline-block;
+    margin: 5px 10px;
+    float: left;     
+}
+
+#vip_contact   button {
+    position: inherit;
+    float: right;
+    margin-right: 0;
+    width: 30%;
+}
+#js_article .rich_media_area_primary {
+    padding: 20px 0px 15px;
+}
+#vip_contact main section {
+    border-radius: 5px;
+    float: left;
+    width: 100%;
+    background-color: #ffffff;
+    border: dotted #eb524a;
+}
+
+#vip_contact main section .ite {
+    display: block;
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    margin: 10px 0px;
+    padding: 0px 5px;
+    border-bottom: dotted gold;
+    border-bottom-width: thin;
+}
+
+#vip_contact .content {
+    padding: 30px 10px;
+}
+
+.rich_media {
+    position: relative;
+    max-height: 700px;
+    overflow: hidden;
+    margin: 0 10px;
+}
+.lesw_question_mask {
+    height: 150px;
+    line-height: 150px;
+}
